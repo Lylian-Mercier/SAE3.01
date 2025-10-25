@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header
+      class="flex items-center justify-between border-b border-[var(--color-primary)] p-4"
+    >
+      <img class="" src="/Bershka_logo.png" alt="Bershka Logo" />
+      <nav>
+        <ul class="flex gap-8">
+          <li>
+            <a
+              href="/index.html"
+              class="text-[var(--color-primary)] hover:text-[var(--color-success)]"
+              >Accueil</a
+            >
+          </li>
+          <li>
+            <a
+              href="/pages/Produits.html"
+              class="text-[var(--color-primary)] hover:text-[var(--color-success)]"
+              >Produit</a
+            >
+          </li>
+          <li>
+            <a
+              href="/pages/Click_and_Collect.html"
+              class="text-[var(--color-primary)] hover:text-[var(--color-success)]"
+              >Click & Collect</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <section class="flex items-center space-x-4">
+        <div
+          class="flex w-96 items-center rounded-full border border-[var(--color-primary)] bg-[var(--color-background)] px-4 py-2"
+        >
+          <svg
+            class="h-5 w-5 text-[var(--color-primary)]"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            type="text"
+            placeholder="Rechercher..."
+            class="ml-3 w-full bg-[var(--color-background)] text-[var(--color-primary)] outline-none"
+          />
+        </div>
+        <svg
+          class="h-4 w-4 text-[var(--color-primary)]"
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.6667 6.66667C10.6667 7.37391 10.3858 8.05219 9.88566 8.55229C9.38556 9.05238 8.70728 9.33333 8.00004 9.33333C7.2928 9.33333 6.61452 9.05238 6.11442 8.55229C5.61433 8.05219 5.33337 7.37391 5.33337 6.66667"
+            stroke="currentColor"
+            stroke-width="1.33333"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M2.06873 4.02267H13.9314"
+            stroke="currentColor"
+            stroke-width="1.33333"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M2.26667 3.64467C2.09357 3.87546 2 4.15617 2 4.44467V13.3333C2 13.687 2.14048 14.0261 2.39052 14.2761C2.64057 14.5262 2.97971 14.6667 3.33333 14.6667H12.6667C13.0203 14.6667 13.3594 14.5262 13.6095 14.2761C13.8595 14.0261 14 13.687 14 13.3333V4.44467C14 4.15617 13.9064 3.87546 13.7333 3.64467L12.4 1.86667C12.2758 1.70107 12.1148 1.56667 11.9296 1.4741C11.7445 1.38153 11.5403 1.33333 11.3333 1.33333H4.66667C4.45967 1.33333 4.25552 1.38153 4.07038 1.4741C3.88524 1.56667 3.7242 1.70107 3.6 1.86667L2.26667 3.64467Z"
+            stroke="currentColor"
+            stroke-width="1.33333"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </section>
+    </header>
+
+    <main class="mx-auto flex max-w-7xl gap-8 p-8">
+      <div class="w-1/2">
+        <img src="/Chemise.jpg" alt="Chemise feminine" class="w-full" />
+      </div>
+      <div class="w-1/2">
+        <h1 class="mb-2 text-2xl font-bold">25.99 €</h1>
+        <p class="mb-6">
+          Chemise feminine avec coupe cintrée et manches légèrement évasées.
+          Tissu fluide et confortable. Un basique intemporel à avoir dans sa
+          garde-robe.
+        </p>
+
+        <div class="mb-6">
+          <h2 class="mb-2 font-bold">Taille</h2>
+          <select class="w-full rounded border p-2">
+            <option>Choisir une option</option>
+          </select>
+        </div>
+
+        <div class="mb-6">
+          <h2 class="mb-2 font-bold">Couleurs</h2>
+          <div class="flex gap-2">
+            <button class="h-6 w-6 rounded-full bg-red-900"></button>
+            <button class="h-6 w-6 rounded-full bg-yellow-100"></button>
+            <button class="bg-navy h-6 w-6 rounded-full"></button>
+            <button class="h-6 w-6 rounded-full bg-black"></button>
+            <button class="h-6 w-6 rounded-full bg-red-500"></button>
+          </div>
+        </div>
+
+        <button class="w-full rounded bg-black px-6 py-3 text-white">
+          AJOUTER AU PANIER
+        </button>
+
+        <div class="mt-8 border-t pt-4">
+          <div class="mb-2 flex gap-4">
+            <span class="font-bold">UGS:</span>
+            <span>ND</span>
+          </div>
+          <div class="mb-4 flex gap-4">
+            <span class="font-bold">Catégorie:</span>
+            <span>Old Money</span>
+          </div>
+          <div class="flex items-center gap-4">
+            <span class="font-bold">Partager:</span>
+            <div class="flex gap-2">
+              <img
+                src="/facebook.svg"
+                alt="Facebook"
+                class="h-6 w-6 cursor-pointer"
+              />
+              <img
+                src="/twitter.svg"
+                alt="Twitter"
+                class="h-6 w-6 cursor-pointer"
+              />
+              <img
+                src="/instagram.svg"
+                alt="Instagram"
+                class="h-6 w-6 cursor-pointer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black p-8 text-white">
+      <div class="mx-auto grid max-w-7xl grid-cols-4 gap-8">
+        <div>
+          <h3 class="mb-4 font-bold">A propos</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Qui sommes-nous</a></li>
+            <li><a href="#" class="hover:underline">Nos magasins</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 font-bold">Aide</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">FAQ</a></li>
+            <li><a href="#" class="hover:underline">Livraison</a></li>
+            <li><a href="#" class="hover:underline">Retours</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 font-bold">Click & Collect</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:underline">Comment ça marche</a></li>
+            <li><a href="#" class="hover:underline">Trouver un magasin</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 font-bold">Newsletter</h3>
+          <p class="mb-4">Recevez nos dernières offres</p>
+          <div class="flex">
+            <input
+              type="email"
+              placeholder="Email"
+              class="rounded-l border border-white bg-black px-4 py-2"
+            />
+            <button
+              class="rounded-r bg-[var(--color-success)] px-4 py-2 text-white"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mx-auto mt-8 max-w-7xl border-t border-gray-800 pt-8 text-center text-sm"
+      >
+        <p>© 2025 Bershka. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
