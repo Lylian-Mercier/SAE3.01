@@ -1,0 +1,7 @@
+url: ${{ steps.deployment.outputs.page_url }}
+build:
+  commands:
+    - npm install
+    - npm run build
+output:
+  path: dist
